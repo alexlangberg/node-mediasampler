@@ -1,0 +1,32 @@
+{
+  "rule": { "second": [15] },
+  "targets": [
+    { "url": "http://www.b.dk" },
+    { "url": "http://www.borsen.dk" },
+    { "url": "http://www.bt.dk" },
+    { "url": "http://www.dr.dk" },
+    { "url": "http://www.ekstrabladet.dk",
+      "goldwasher": {
+        "contractAdjecent": true
+      }
+    },
+    { "url": "http://www.information.dk" },
+    { "url": "http://www.ing.dk" },
+    { "url": "http://www.jyllands-posten.dk" },
+    { "url": "http://www.kristeligt-dagblad.dk" },
+    { "url": "http://www.politiken.dk" },
+    { "url": "http://www.politiko.dk" },
+    { "url": "http://www.tv2.dk" }
+  ],
+  "options": {
+    "goldwasher": {
+      "selector": "h1, h2, h3, h4, h5, h6"
+    }
+  },
+  "chronostore": {
+    "root": "./chronostore",
+    "format": ["YYYY", "MM", "DD"],
+    "gzip": false
+  },
+  "rethrowErrors": false
+}

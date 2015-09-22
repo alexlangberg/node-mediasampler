@@ -1,0 +1,30 @@
+{
+  "name": "mediasampler",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Project to sample of media websites over time.",
+  "main": "index.js",
+  "directories": {},
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlangberg/node-mediasampler.git"
+  },
+  "keywords": [
+    "scraping",
+    "crawling",
+    "time",
+    "chronological",
+    "media"
+  ],
+  "author": "Alex Langberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexlangberg/node-mediasampler/issues"
+  },
+  "homepage": "https://github.com/alexlangberg/node-mediasampler#readme",
+  "dependencies": {
+    "sitesampler": "^1.0.7"
+  }
+}
