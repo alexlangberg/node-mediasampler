@@ -24,7 +24,7 @@
     }
   },
   "chronostore": {
-    "root": "/home/storage/mediasampler/chronostore",
+    "root": "./chronostore",
     "format": ["YYYY", "MM", "DD"],
     "gzip": false
   },
