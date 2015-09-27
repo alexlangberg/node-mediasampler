@@ -1,5 +1,5 @@
 {
-  "rule": { "second": [15] },
+  "rule": { "minute": [1] },
   "targets": [
     { "url": "http://www.b.dk" },
     { "url": "http://www.borsen.dk" },
@@ -25,7 +25,7 @@
   },
   "chronostore": {
     "root": "./chronostore",
-    "format": ["YYYY", "MM", "DD"],
+    "format": ["YYYY", "MM", "DD", "HH"],
     "gzip": false
   },
   "rethrowErrors": false
