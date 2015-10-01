@@ -1,7 +1,7 @@
 {
   "name": "mediasampler",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Project to sample of media websites over time.",
   "main": "index.js",
   "directories": {},
