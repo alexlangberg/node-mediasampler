@@ -18,6 +18,9 @@ var options = {
     },
     'retry': {
       'retries': 10
+    },
+    'goldwasherNeedle': {
+      'onlyFullDocument': true
     }
   },
   'chronostore': {
