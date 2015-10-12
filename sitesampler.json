@@ -4,11 +4,7 @@
     { "url": "http://www.borsen.dk" },
     { "url": "http://www.bt.dk" },
     { "url": "http://www.dr.dk" },
-    { "url": "http://www.ekstrabladet.dk",
-      "goldwasher": {
-        "contractAdjecent": true
-      }
-    },
+    { "url": "http://www.ekstrabladet.dk"},
     { "url": "http://www.information.dk" },
     { "url": "http://www.ing.dk" },
     { "url": "http://www.jyllands-posten.dk" },
@@ -19,14 +15,13 @@
   ],
   "options": {
     "rule": { "minute": 1 },
-    "retry": {
-      "retries": 10
-    },
-    "goldwasher": {
-      "selector": "h1, h2, h3, h4, h5, h6"
-    },
-    "goldwasherNeedle": {
-      "onlyFullDocument": true
+    "needleRetry": {
+      "retry": {
+        "retries": 10
+      },
+      "needle": {
+        "read_timeout": 120000
+      }
     }
   },
   "chronostore": {

@@ -6,21 +6,14 @@ var options = {
   'rule': { 'second': [15, 30, 45, 1] },
   'targets': [
     {
-      'url': 'http://www.google.dk',
-      'goldwasher': {
-        'contractAdjecent': false
-      }
+      'url': 'http://www.tv2.dk'
     }
   ],
   'options': {
-    'goldwasher': {
-      'selector': 'h1, h2, h3, h4, h5, h6'
-    },
-    'retry': {
-      'retries': 10
-    },
-    'goldwasherNeedle': {
-      'onlyFullDocument': true
+    'needleRetry': {
+      'retry': {
+        'retries': 10
+      }
     }
   },
   'chronostore': {

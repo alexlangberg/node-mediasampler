@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/alexlangberg/node-mediasampler#readme",
   "dependencies": {
-    "sitesampler": "^2.0.3"
+    "sitesampler": "^3.0.0"
   }
 }
