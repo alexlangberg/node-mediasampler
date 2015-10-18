@@ -21,7 +21,8 @@
       },
       "needle": {
         "read_timeout": 120000
-      }
+      },
+      "fullDocument": true
     }
   },
   "chronostore": {
