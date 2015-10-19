@@ -26,9 +26,9 @@
     }
   },
   "chronostore": {
-    "root": "./chronostore",
+    "root": "./mediasampler",
     "format": ["YYYY", "MM", "DD", "HH"],
-    "gzip": false
+    "gzip": true
   },
   "rethrowErrors": false
 }
