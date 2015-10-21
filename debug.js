@@ -11,6 +11,9 @@ var options = {
   ],
   'options': {
     'needleRetry': {
+      'needleRetry': {
+        'fullDocument': true
+      },
       'retry': {
         'retries': 10
       }
