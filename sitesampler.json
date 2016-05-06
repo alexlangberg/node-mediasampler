@@ -30,7 +30,8 @@
   "chronostore": {
     "root": "./mediasampler",
     "format": ["YYYY", "MM", "DD", "HH"],
-    "gzip": true
+    "gzip": true,
+    "log": true
   },
   "rethrowErrors": false
 }

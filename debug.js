@@ -3,13 +3,13 @@
 var sitesampler = require('sitesampler');
 
 var options = {
-  'rule': { 'second': [15, 30, 45, 1] },
   'targets': [
     {
-      'url': 'http://www.tv2.dk'
+      'url': 'http://www.github.com'
     }
   ],
   'options': {
+    'rule': { 'second': [15, 30, 45, 1] },
     'needleRetry': {
       'needleRetry': {
         'fullDocument': true
@@ -22,7 +22,8 @@ var options = {
   'chronostore': {
     'root': './chronostore',
     'format': ['YYYYMMDD'],
-    'gzip': false
+    'gzip': false,
+    'log': true
   },
   'rethrowErrors': false
 };
