@@ -31,7 +31,9 @@
     "root": "./mediasampler",
     "format": ["YYYY", "MM", "DD", "HH"],
     "gzip": true,
-    "log": true
+    "log": {
+      "path": "./mediasampler/chronostore-logs"
+    }
   },
   "rethrowErrors": false
 }

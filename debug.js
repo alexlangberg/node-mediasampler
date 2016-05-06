@@ -23,7 +23,9 @@ var options = {
     'root': './chronostore',
     'format': ['YYYYMMDD'],
     'gzip': false,
-    'log': true
+    'log': {
+      'path': './chronostore/chronostore-logs'
+    }
   },
   'rethrowErrors': false
 };
